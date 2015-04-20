@@ -8,7 +8,7 @@ level: advanced
 # Static Playlister on ActiveRecord
 
 ## Welcome to the Web!
-In this lab, you're going to making some sweet static websites.  Static means no server is needed, so you're not using Rails or Sinatra.  You're going to use ActiveRecord and [ERB](http://ruby-doc.org/stdlib-2.1.2/libdoc/erb/rdoc/ERB.html) to generate regular html web pages.
+In this lab, you're going to make some sweet static websites.  Static means no server is needed, so you're not using Rails or Sinatra.  You're going to use ActiveRecord and [ERB](http://ruby-doc.org/stdlib-2.1.2/libdoc/erb/rdoc/ERB.html) to generate regular html web pages.
 
 Using ActiveRecord and ERB you'll create [ERB template](http://www.stuartellis.eu/articles/erb/) files that end in `.html.erb` where you can call your ActiveRecord models - `Artist`, `Genre`, and `Song` - to access all the information stored in your database.
 
