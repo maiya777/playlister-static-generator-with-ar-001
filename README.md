@@ -1,9 +1,4 @@
----
-tags: activerecord associations, ERB
-languages: ruby
-resources: 3
-level: advanced
----
+
 
 # Static Playlister on ActiveRecord
 
