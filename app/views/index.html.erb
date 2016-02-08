@@ -1,1 +1,13 @@
-<!-- The main page of playlister -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Playlister</title>
+  </head>
+   <body>
+    <ul>
+      <li><a href="artists/index.html">Artists - <%= Artist.all.size%></a></li>
+      <li><a href="genres/index.html">Genres - <%= Genre.all.size%></a></li>
+      <li><a href="songs/index.html">Songs - <%= Song.all.size%></a></li>
+      </ul>
+  </body>
+</html>

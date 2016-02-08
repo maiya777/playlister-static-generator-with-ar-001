@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Genres</title>
+  </head>
+   <body>
+    <ul>
+      <%Genre.all.each do |genre|%>
+      <li><a href="artists/<%= genre.to_slug%>.html"> <%= genre.name%></a></li>
+      <%end%>
+    </ul>
+  </body>
+</html>
